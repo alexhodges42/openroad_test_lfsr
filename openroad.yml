@@ -1,0 +1,12 @@
+platform: nangate45
+
+design_name: two_tap_lfsr
+
+verilog_files:
+- top.v
+sdc_file: main_constraints.sdc
+
+die_area: "0 0 50 50"
+core_area: "10 10 40 40"
+
+clock_period: 50
