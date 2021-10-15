@@ -6,7 +6,7 @@ verilog_files:
 - top.v
 sdc_file: main_constraints.sdc
 
-die_area: "0 0 50 50"
-core_area: "10 10 40 40"
+die_area: "0 0 500 500"
+core_area: "10 10 400 400"
 
-clock_period: 50
+clock_period: 50.000
