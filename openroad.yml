@@ -1,6 +1,6 @@
 platform: nangate45
 
-design_name: two_tap_lfsr
+design_name: top
 
 verilog_files:
 - top.v
@@ -8,5 +8,3 @@ sdc_file: main_constraints.sdc
 
 die_area: "0 0 500 500"
 core_area: "10 10 400 400"
-
-clock_period: 50.000
