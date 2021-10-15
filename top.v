@@ -22,14 +22,14 @@
 
 module two_tap_lfsr #(parameter tap_one = 2,
                       parameter tap_two = 4) (
-                      input clock,
+                      input clk,
                       input [7:0] seed,
                       input enable,
                       input reset,
                       output reg [7:0] lfsr
                       );
            
-    always @(posedge(clock)) begin
+  always @(posedge(clk)) begin
         if (reset) begin
             lfsr <= 8'b00000001;
         end
