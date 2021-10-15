@@ -1,1 +1,1 @@
-create_clock [get_ports clock]  -name main_clock  -period 50
+create_clock [get_ports clk]  -name core_clk  -period 5
